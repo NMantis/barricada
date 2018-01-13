@@ -37,18 +37,7 @@
                             <div class="collapse navbar-collapse navbar-ex1-collapse">
                     
                                 <!-- .nav -->
-                                <ul class="nav navbar-nav">
-                                    <div class="btn-group">
-
-                                    <a data-placement="bottom" data-original-title="Messages" href="#" data-toggle="tooltip"
-                                       class="btn btn-default btn-sm" style="color: #f5f5f5;
-    background-color: #333;">
-                                        <i class="fa fa-comments"></i>
-                                        <span class="label label-danger">4</span>
-                                    </a>
-
-                                </div>
-                                </ul>
+                                
                                 <!-- /.nav -->
                             </div>
                         </div>

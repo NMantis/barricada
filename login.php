@@ -53,7 +53,7 @@
     <hr>
     <div class="tab-content">
         <div id="login" class="tab-pane active">
-            <form action="galaria/securelogin/includes/process_login.php" method="POST" name="login_form" onsubmit="return formhash(this, this.password);">
+            <form action="galaria/SecureLogin/includes/process_login.php" method="POST" name="login_form" onsubmit="return formhash(this, this.password);">
                 <p class="text-muted text-center">
                     Enter your username and password
                 </p>

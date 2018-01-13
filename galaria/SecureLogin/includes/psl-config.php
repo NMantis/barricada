@@ -28,9 +28,9 @@
 /**
  * These are the database login details
  */
-define("HOST", "greenhouseonline.gr");     // The host you want to connect to.
-define("USER", "root");    // The database username. 
-define("PASSWORD", "toor");    // The database password. 
+define("HOST", "localhost");     // The host you want to connect to.
+define("USER", "apollopa_barricada");    // The database username. 
+define("PASSWORD", "barricada@!");    // The database password. 
 define("DATABASE", "apollopa_barricada");    // The database name.
       // The database name.
 
