@@ -46,7 +46,7 @@ define("DATABASE", "apollopa_barricada");    // The database name.
  * However, additional roles can be added and so there's nothing stopping
  * anyone from defining a different default.
  */
-define("CAN_REGISTER", "any");
+define("CAN_REGISTER", "root");
 define("DEFAULT_ROLE", "member");
 
 /**

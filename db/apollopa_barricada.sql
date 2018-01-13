@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: localhost:3306
--- Χρόνος δημιουργίας: 13 Ιαν 2018 στις 03:01:38
+-- Χρόνος δημιουργίας: 13 Ιαν 2018 στις 03:38:26
 -- Έκδοση διακομιστή: 10.1.24-MariaDB-cll-lve
 -- Έκδοση PHP: 5.6.30
 
@@ -245,7 +245,11 @@ INSERT INTO `login_attempts` (`user_id`, `time`) VALUES
 (11, '1515804708'),
 (11, '1515805845'),
 (11, '1515806032'),
-(11, '1515806992');
+(11, '1515806992'),
+(11, '1515809343'),
+(11, '1515809443'),
+(11, '1515809460'),
+(12, '1515809682');
 
 -- --------------------------------------------------------
 
@@ -403,10 +407,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `salt`) VALUES
-(8, 'antonis', 'antonis@gmail.com', 'd56032c93af515f5e5253b4a7565e0165c447796ea1c5b2f81acd7c1df41e7ee59cd7d37f9be4785031e582ed57e9bae54ef84229795a077d4a5db652a2526f0', 'b7b2fde218fc7acab58e0769dc53e24310af7b75b605d8aec8546dd36f26f635210f307887442427b29d85ec436d3de63ea09f553d14ff2e7e49eb43fc1e6289'),
-(9, 'antwnis', 'antwnis@gmail.com', '992aac42eb23b648b0765b2e07d652e3804ad9cb8273c612b515ae24efde196df563168a915cc991bbd79713fc044d4720b91a02c6ba48d437a3cd0a5f70d551', '84b6c7b6654a651176843f273fd44cfc1b01b964a4c35e105f5d592169c699ea5124568b2737aa76fac45ff2f047277c9e863e4da5aaa1983bbc3363ef546bfb'),
-(10, 'jonisp1', 'jonisp1@gmail.com', '326999919c6a24150315bcc04d434168430a8e91f811cb176e99bdabb4c0362b35e424cce181b256fd7e959edcb423b0aa180e0e1089765f0d9aee946a24cf3d', 'bd33087e5bde536ea6a0421cd8fc206cb5e5d2d238c0d20b46d1faf5ecb394c3136bf302ddbac99cbf614948cb246c8e57f5ab9acf0bf563cd17b05f0a92b626'),
-(11, 'jonisp2', 'jonisp2@gmail.com', '001f7a915093bedfbb6c78a75b6bae13cb4fa5a2019b72dc61f02a9087235ce543201ce0e09f1c302a2dcd492a94481fbfe5baad692be57380b78a4ce8fde1fb', 'ce171187b618871839006d3232027ea06ff16b69c30c0658f6ecbcb0520f4f3c4c83307b23c5dbaa15b0542e50381140cea9f9ed7e57bd07e60b5d0e5b00af9f');
+(12, 'jonisp1', 'jonisp1@gmail.com', '00cb4488db1b97848294dd8ff5486e63aa0606f9475f8767737843e14dec0507eae513f49630764d6f30fe0aee85a1f8bb5634dd3c3b5d80a521a2db037106de', 'a51dea594a8590d5b1fa5e73ad69decd86ff197e225f1a9982bbb240b8d4ce3a2264cc45d9207e84b0b2ca7f0766b9082961a6d5028e30d3220cb7472b613842'),
+(13, 'antwnis', 'antwnis@gmail.com', 'f0a6c702e3e8780f396a947469c19a78e80ef0a3373c610c6c56b3bdc93d066f4b56019263cfa516e57f1d6facb6c8e65c6ad7244921bca2bb8928af39eea910', 'b6712c0a488f297e3d44d61822fe29d394b0945b094a89e20e5f1b25270e24e06812740aebf5afac35a0d9f69ba948f8c9970add8f054e8663f569a44dcac8ef');
 
 --
 -- Ευρετήρια για άχρηστους πίνακες
@@ -514,7 +516,7 @@ ALTER TABLE `p_units_comp`
 -- AUTO_INCREMENT για πίνακα `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
