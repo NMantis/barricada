@@ -1,9 +1,9 @@
 <?php
 
 
-$dsn = 'mysql:host=localhost;dbname=apollopa_barricada;charset=utf8' ;
-$username = 'apollopa_barricada';
-$password = 'barricada@!';
+$dsn = '' ; //host,dbname,options
+$username = '';
+$password = '';
 $options = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET CHARACTER SET utf8",
 ); 
